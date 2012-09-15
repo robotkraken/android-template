@@ -1,4 +1,4 @@
 android-template
 ================
 
-android app template
+a functional android app without any content.

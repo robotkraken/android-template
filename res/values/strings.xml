@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">gps-Alarm</string>
+    
+    <string name="main_menu_add_new">Create New</string>
+    <string name="main_menu_manage">Manage</string>
+    <string name="main_menu_help">Help</string>
+    
+    <string name="menu_logo_desc">Menu logo</string>
+    
+    <string name="title_activity_display_message">Message</string>
+
+</resources>

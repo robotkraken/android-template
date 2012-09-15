@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         android:orientation="vertical"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:paddingLeft="8dp"
+         android:paddingRight="8dp"
+         android:background="#000000">
+         
+         <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="150dip"
+        android:gravity="center_horizontal"
+        android:src="@drawable/menu_logo" 
+        android:contentDescription="@string/menu_logo_desc"
+        android:background="#000000"/>
+        
+       <include layout="@layout/separator" />
+       
+       <TextView android:id="@+id/main_menu_add_new"
+           android:text="@string/main_menu_add_new" 
+           android:onClick="createNew" 
+           style="@style/menuItem" />
+      
+	   <include layout="@layout/separator" />
+	   
+	   <TextView android:id="@+id/main_menu_manage"
+           android:text="@string/main_menu_manage" 
+           android:onClick="manage" 
+           style="@style/menuItem" />
+	   
+	   <include layout="@layout/separator" />
+	   
+	   <TextView android:id="@+id/main_menu_help"
+           android:text="@string/main_menu_help" 
+           android:onClick="help" 
+           style="@style/menuItem" />
+	   
+	   <include layout="@layout/separator" />
+
+ </LinearLayout>
